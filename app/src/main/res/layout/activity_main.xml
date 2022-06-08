@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.estimoteproximity102.LoginActivity">
+
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
@@ -45,4 +46,5 @@
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword5"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword5"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
